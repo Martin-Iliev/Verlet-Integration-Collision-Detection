@@ -1,0 +1,29 @@
+﻿  1>Checking Build System
+  CMake is re-running because C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Build/CMakeFiles/generate.stamp dependency file is missing.
+  -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22631.
+  CMake Error at C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Verlet Integration Collision Detection/SFML/SFMLSharedTargets.cmake:146 (message):
+    The imported target "sfml-system" references the file
+  
+       "C:/Users/iliev/OneDrive/Desktop/lib/sfml-system-d.lib"
+  
+    but this file does not exist.  Possible reasons include:
+  
+    * The file was deleted, renamed, or moved to another location.
+  
+    * An install or uninstall procedure did not complete successfully.
+  
+    * The installation package was faulty and contained
+  
+       "C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Verlet Integration Collision Detection/SFML/SFMLSharedTargets.cmake"
+  
+    but not all the files it references.
+  
+  -- Configuring incomplete, errors occurred!
+  Call Stack (most recent call first):
+    C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Verlet Integration Collision Detection/SFML/SFMLConfig.cmake:116 (include)
+    CMakeLists.txt:9 (find_package)
+  
+  
+  CMake Configure step failed.  Build files cannot be regenerated correctly.  Attempting to stop IDE build.
+  The system cannot find the batch label specified - VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(231,5): error MSB8066: Custom build for 'C:\Users\iliev\OneDrive\Desktop\AdvancedTools\Build\CMakeFiles\d0aac39c4b183d0cd2b39bd1e3b29cca\generate.stamp.rule' exited with code 1.

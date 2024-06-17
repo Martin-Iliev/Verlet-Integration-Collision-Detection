@@ -1,0 +1,28 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2116,5): warning : The referenced project 'C:\Users\iliev\OneDrive\Desktop\AdvancedTools\Build\ZERO_CHECK.vcxproj' does not exist.
+  Building Custom Rule C:/Users/iliev/OneDrive/Desktop/AdvancedTools/VerletSFML-main/CMakeLists.txt
+  CMake is re-running because C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Build/CMakeFiles/generate.stamp dependency file is missing.
+  -- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.22631.
+  CMake Error at C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Verlet Integration Collision Detection/SFML/SFMLSharedTargets.cmake:146 (message):
+    The imported target "sfml-system" references the file
+  
+       "C:/Users/iliev/OneDrive/Desktop/lib/sfml-system-d.lib"
+  
+    but this file does not exist.  Possible reasons include:
+  
+    * The file was deleted, renamed, or moved to another location.
+  
+    * An install or uninstall procedure did not complete successfully.
+  
+    * The installation package was faulty and contained
+  
+       "C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Verlet Integration Collision Detection/SFML/SFMLSharedTargets.cmake"
+  
+    but not all the files it references.
+  
+  Call Stack (most recent call first):
+    C:/Users/iliev/OneDrive/Desktop/AdvancedTools/Verlet Integration Collision Detection/SFML/SFMLConfig.cmake:116 (include)
+    CMakeLists.txt:9 (find_package)
+  
+  
+  -- Configuring incomplete, errors occurred!
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(248,5): error MSB8066: Custom build for 'C:\Users\iliev\OneDrive\Desktop\AdvancedTools\VerletSFML-main\CMakeLists.txt' exited with code 1.
